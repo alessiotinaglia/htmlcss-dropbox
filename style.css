@@ -58,20 +58,19 @@ header ul li:nth-child(3){
     padding-right: 15px;
 }
 
-
 img{
     width: 100%;
     display: block;
 }
 
-.p-20{
+.p-header{
     padding-top: 25px;
     padding-left: 25px;
     padding-bottom: 25px;
     padding-right: 5px;
 }
 
-#button-small{
+.button-small{
     background-color: var(--color-blue);
     padding: 8px 16px;
     color: var(--color-white);
@@ -93,12 +92,63 @@ h1{
 
 .container-small{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
+}
+
+/* dimensioni */
+
+.w-30{
+    width: 30%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+#jumbotron{
+    padding-top: 100px;
+}
+
+#jumbotron .container{
+    position: relative;
+    top: 70px;
+}
+
+p{
+    line-height: 20px;
+    font-size: 1em;
+}
+
+.margin-45{
+    margin: 35px 0px;
+}
+
+a{
+    color: var(--color-white);
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.font{
+    font-size: 3em;
+    padding-top: 82px;
+}
+    
+
+#plans{
+    margin-top: 100px;
+}
+.single-customer{
+    font-size: 1.5em;
 }
 
 
+/* backgraund */
 
-
+.bg-light-blue{
+    background-color: var(--color-jumbo);
+}
 
 
 /* flex utilities */
@@ -123,54 +173,9 @@ h1{
     justify-content: flex-start;
 }
 
-
-
-
 .flex-wrap{
     flex-wrap: wrap;
 }
-
-/* dimensioni */
-
-.w-30{
-    width: 30%;
-}
-
-.w-70{
-    width: 70%;
-}
-
-
-
-/* backgraund */
-
-.bg-light-blue{
-    background-color: var(--color-jumbo);
-}
-
-
-
-#jumbotron{
-    padding-top: 100px;
-}
-
-#jumbotron .container{
-    position: relative;
-    top: 70px;
-}
-
-#plans{
-    margin-top: 100px;
-}
-
-/* footer */
-
-
-footer{
-    background-color: black;
-    color: white;
-}
-
 
 
 .customers-brand>div{
@@ -182,3 +187,14 @@ footer{
     width: 50%;
     height: 50%;
 }
+
+
+/* footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
