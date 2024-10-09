@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "opens sans" , sans-serif;
+    background-color: white;
+    color: black;
+}
+
+colori
+
+:root {
+    --color-light-blue: #b4d0e7;
+    --color-dark: #000000;
+    --color-blue: #0061ff;
+    --color-grey: #f5f5f5;
+    --color-contrast: #753f63;
+    --color-white: #ffffff;
+    --color-logo-green: #a2d39b;
+    --color-logo-second: #61082b;
+    --color-logo-third: #0093ce;
+    --color-logo-light-red: #ff1c1c;
+    --color-logo-red: #d5001f;
+    --color-logo-blue: #0d2481;
+    --color-logo-yellow: #ffd830;
+    --color-jumbo: #B4D0E7;
+  }
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.container-small{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+
+}
+
+main{
+
+}
+/* flex utilities */
+
+.d-flex{
+    display: flex;
+}
+
+.pace-between{
+    justify-content: space-between;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* dimensioni */
+
+.w-30{
+    width: 30%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+
+
+/* backgraund */
+
+.bg-light-blue{
+    background-color: blue;
+}
+
+#jumbotron{
+    padding-top: 100px;
+}
+
+#jumbotron .conteiner{
+    position: relative;
+    top: 70px;
+}
+
+#plans{
+    margin: ;
+}
+
+/* .jumbo-content{
+    position: relative;
+    
+} */
+
+
+/* footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+.customers-brand>div{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.brand{
+    width: 50%;
+    height: 50%;
+}
