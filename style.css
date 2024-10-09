@@ -13,7 +13,7 @@ body{
 /* colori */
 
 :root {
-    --color-dark: #000000;
+    --color-black: #000000;
     --color-blue: #0061ff;
     --color-grey: #f5f5f5;
     --color-contrast: #753f63;
@@ -78,8 +78,19 @@ img{
 
 .button-big{
     background-color: var(--color-blue);
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: var(--color-white);
+}
+
+.buttom-big-white{
+    background-color: var(--color-white);
+    padding: 12px 20px;
+    color: var(--color-dark);
+}
+
+#black{
+    color: var(--color-dark);
+    font-size: 1.3em;
 }
 
 
@@ -111,6 +122,14 @@ h1{
     width: 70%;
 }
 
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+}
+
 #jumbotron{
     padding-top: 100px;
 }
@@ -133,6 +152,7 @@ button a{
     color: var(--color-white);
     cursor: pointer;
     text-decoration: none;
+    font-size: 1.2em;
     
 }
 
@@ -147,6 +167,10 @@ button a{
 
 #plans{
     margin-top: 100px;
+}
+
+.margin-top{
+    margin-top: 50px;
 }
 .single-customer{
     font-size: 1.5em;
@@ -166,7 +190,7 @@ button a{
     display: flex;
 }
 
-.pace-between{
+.space-between{
     justify-content: space-between;
 }
 
@@ -205,8 +229,40 @@ button a{
 }
 
 .padding-row{
-    padding: 25px;
+    padding: 27px;
 }
+
+h2{
+    padding: 50px 0px;
+}
+
+h3{
+    padding: 50px 0px 25px;
+    line-height: 1.2em;
+    font-size: 1.5em;
+}
+
+#enterprise{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.padding-30{
+    padding: 30px 0px;
+}
+.paddin-150{
+    padding: 150px 0px;
+}
+
+
+.padding-10{
+    padding: 10px 0px;
+}
+
+#check{
+    font-size: 1.3em;
+}
+
 
 /* paddin button */
 
@@ -230,6 +286,9 @@ button a{
 .padding-bottom-50{
     padding-bottom: 50px;
 }
+.padding-bottom-68{
+    padding-bottom: 68px;
+}
 
 .paddin-right-10{
     padding-right: 10px;
@@ -246,6 +305,8 @@ button a{
 .font-plan{
     font-size: 1.3em;
 }
+
+
 
 
 /* footer */

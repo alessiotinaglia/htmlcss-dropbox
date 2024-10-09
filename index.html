@@ -17,7 +17,7 @@
 
 <body>
     <header class="p-header">
-        <nav class="d-flex pace-between">
+        <nav class="d-flex space-between">
             <div class="flex-start d-flex aling-items justify-content">
                 <div class="d-flex aling-items justify-content">
                     <img src="./img/logo-small.png" alt="logo header">
@@ -76,7 +76,7 @@
                 <div class="single-customer debug">
                     <h2>Trova il piano Business che fa per te</h2>
                 </div>
-                <div>
+                <div class="padding-30">
                     <input type="radio" id="mensile" name="mensile" value="annuale">
                     <label for="mese">Fatturazione Mensile</label>
                     <input type="radio" id="annuale" name="annuale" value="annuale">
@@ -87,23 +87,34 @@
 
         <section id="partner-plan" class="debug">
             <div class="container-small d-flex row debug aling-center">
-                <div class="col debug"><i class="fa-solid fa-user"></i>Singolo</div>
-                <div class="col debug"><i class="fa-solid fa-people-group"></i>Team</div>
-                <div class="col debug"><i class="fa-solid fa-building"></i>Azienda</div>
+                <div class="col debug padding-10">
+                    <i id="paddin-right-10" class="fa-solid fa-user"></i>
+                    <span>Singolo</span>
+                </div>
+                <div class="col debug padding-10">
+                    <i id="paddin-right-10" class="fa-solid fa-people-group"></i>
+                    <span>Team</span>
+                </div>
+                <div class="col debug padding-10">
+                    <i id="paddin-right-10" class="fa-solid fa-building"></i>
+                    <span>Azienda</span>
+                </div>
             </div>
             <div class="container-small d-flex row debug">
                 <div class="col debug padding-row padding-bottom">
                     <h5 class="font-plan padding-bottom-20">Professional</h5>
-                    <div class="padding-bottom-10">€ 12.00</div>
+                    <div class="padding-bottom-10"><strong>€ 12.00</strong></div>
                     <div class="padding-bottom-50">/mese</div>
-                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-user"></i> 
-                       <span>1 utente</span> 
+                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-user"></i>
+                        <span>1 utente</span>
                     </div>
                     <div class="padding-bottom-20"><i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>                            
+                        <span>5 TB di spazio di archiviazione sicuro</span>
                     </div>
-                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i> <span>Funzioni di produttivita</span>
-                        premium e condividi file semplice e sicura</div>
+                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i>
+                        <span>Funzioni di produttivita</span>
+                        premium e condividi file semplice e sicura
+                    </div>
                     <button class="debug button-big">
                         <a class="decoration" href="">Inizia la tua prova gratuita</a>
                     </button>
@@ -113,29 +124,34 @@
                     </div>
                     <h4 class="padding-bottom-30 paddin-top-40 ">Punti salienti del piano</h4>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Invia
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Invia
                             file fino a 100GB con
                             Dropbox Transfer</span>
                     </div>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Cartelle
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Cartelle
                             offline su
                             dispositivi mobili</span>
                     </div>
                 </div>
 
                 <div class="col debug padding-row padding-bottom">
-                    <h5 class="font-plan padding-bottom-20">Professional</h5>
-                    <div class="padding-bottom-10">€ 12.00</div>
-                    <div class="padding-bottom-50">/mese</div>
-                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-user"></i> 
-                       <span>1 utente</span> 
+                    <h5 class="font-plan padding-bottom-20">Advanced</h5>
+                    <div class="padding-bottom-10"><strong>€ 18.00</strong></div>
+                    <div class="padding-bottom-50">/utente/mese</div>
+                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-people-group"></i>
+                        <span>3 o più utenti</span>
                     </div>
                     <div class="padding-bottom-20"><i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>                            
+                        <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
                     </div>
-                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i> <span>Funzioni di produttivita</span>
-                        premium e condividi file semplice e sicura</div>
+                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i>
+                        <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                    </div>
                     <button class="debug button-big">
                         <a class="decoration" href="">Inizia la tua prova gratuita</a>
                     </button>
@@ -145,29 +161,45 @@
                     </div>
                     <h4 class="padding-bottom-30 paddin-top-40">Punti salienti del piano</h4>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Invia
-                            file fino a 100GB con
-                            Dropbox Transfer</span>
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Nessun limite di spazio per i file</span>
                     </div>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Cartelle
-                            offline su
-                            dispositivi mobili</span>
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Cartelle offline su dispositivi mobili</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Possibilità di inserire nuovi membri del team</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Gestione dei permessi in base ai ruoli</span>
                     </div>
                 </div>
 
                 <div class="col debug padding-row padding-bottom">
-                    <h5 class="font-plan padding-bottom-20">Professional</h5>
-                    <div class="padding-bottom-10">€ 12.00</div>
-                    <div class="padding-bottom-50">/mese</div>
-                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-user"></i> 
-                       <span>1 utente</span> 
+                    <h5 class="font-plan padding-bottom-20">Enterprise</h5>
+                    <div class="padding-bottom-10"><strong>Contattaci</strong></div>
+                    <div class="padding-bottom-68"></div>
+                    <div class="padding-bottom-20 paddin-right-10"><i class="fa-solid fa-user"></i>
+                        <span>1 utente</span>
                     </div>
                     <div class="padding-bottom-20"><i class="fa-solid fa-folder"></i>
-                        <span>5 TB di spazio di archiviazione sicuro</span>                            
+                        <span>Soluzioni personalizzabili per la tua azienda</span>
                     </div>
-                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i> <span>Funzioni di produttivita</span>
-                        premium e condividi file semplice e sicura</div>
+                    <div class="padding-bottom-50 paddin-right-10"><i class="fa-solid fa-diagram-project"></i>
+                        <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                    </div>
                     <button class="debug button-big">
                         <a class="decoration" href="">Inizia la tua prova gratuita</a>
                     </button>
@@ -177,30 +209,60 @@
                     </div>
                     <h4 class="padding-bottom-30 paddin-top-40">Punti salienti del piano</h4>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Invia
-                            file fino a 100GB con
-                            Dropbox Transfer</span>
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Cartelle offline su dispositivi mobili</span>
                     </div>
                     <div class="d-flex">
-                        <div class="color-blue padding-bottom-30 paddin-right-10"><i class="fa-solid fa-check"></i></div><span>Cartelle
-                            offline su
-                            dispositivi mobili</span>
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Servizio Assistenza 24/h</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="color-blue padding-bottom-30 paddin-right-10"><i id="check"
+                                class="fa-solid fa-check"></i>
+                        </div><span>Possibilità di personalizzazione totale</span>
                     </div>
                 </div>
-
-
-
-
-                
-
-                </div>
-            </div>
             </div>
         </section>
 
         <section>
-            <div class="enterprise container-small debug" class="debug">
-                enterprise
+            <div class="enterprise container-small debug margin-top" class="debug">
+                <div class="aling-center padding-10">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Team</span>
+                </div>
+                <div class="debug padding-row d-flex space-between">
+                    <div class="debug">
+                        <h4 id="enterprise" bclass="padding-bottom-10 font-plan">Enterprise</h4>
+                        <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                    </div>
+                    <div class="debug">
+                        <button class="debug button-big">
+                            <a class="decoration" href="">Contatta l'ufficio vendite</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="debug padding-row">
+                    Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su <br> qualsiasi scala.
+                </div>
+            </div>
+        </section>
+
+        <section id="partner" class="debug paddin-150">
+            <div class="container-small debug d-flex">
+                <div class="w-60 debug">
+                    <img src="./img/partner.png" alt="partner png">
+                </div>
+                <div class="w-40 padding-row debug">
+                    <h3>Entra in contatto con un Partner Dropbox</h3>
+                    <p>Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizzi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <button class="debug buttom-big-white margin-45">
+                        <a id="black" class="decoration" href="">Trova un partner</a>
+                    </button>
+                </div>
+                
             </div>
         </section>
 
