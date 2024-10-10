@@ -43,6 +43,7 @@ header{
     width: 100%;
     background-color: white;
     z-index: 1000;
+    padding: 0 20px;
 }
 
 body ul{
@@ -153,7 +154,6 @@ button a{
     cursor: pointer;
     text-decoration: none;
     font-size: 1.2em;
-    
 }
 
 .font{
@@ -175,7 +175,6 @@ button a{
 .single-customer{
     font-size: 1.5em;
 }
-
 
 /* backgraund */
 
@@ -224,9 +223,7 @@ button a{
     width: 50%;
     height: 50%;
 }
-.row{
-    gap: 60px;
-}
+
 
 .padding-row{
     padding: 27px;
@@ -242,6 +239,14 @@ h3{
     font-size: 1.5em;
 }
 
+h4{
+    font-size: 1.5em;
+}
+
+.drobox-business{
+    padding: 150px 0px 20px;
+}
+
 #enterprise{
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -250,9 +255,15 @@ h3{
 .padding-30{
     padding: 30px 0px;
 }
+.{
+    padding: 100px 0px;
+}
+
+
 .paddin-150{
     padding: 150px 0px;
 }
+
 
 
 .padding-10{
@@ -261,6 +272,10 @@ h3{
 
 #check{
     font-size: 1.3em;
+}
+
+.color-blue{
+    color: var(--color-blue+);
 }
 
 
@@ -286,8 +301,9 @@ h3{
 .padding-bottom-50{
     padding-bottom: 50px;
 }
-.padding-bottom-68{
-    padding-bottom: 68px;
+
+.padding-bottom-150{
+    padding-bottom: 150px;
 }
 
 .paddin-right-10{
@@ -302,11 +318,39 @@ h3{
     width: calc((100% - 120px) / 3);
 }
 
+
+.row{
+    gap: 60px;
+}
+
 .font-plan{
     font-size: 1.3em;
 }
 
+.busines-features{
+    font-size: 2.5em;
+}
 
+#faq{
+    padding: 170px 0px 50px;
+}
+
+summary{
+    font-size: 1.1em;
+    padding: 50px 0px;
+}
+
+.border-top{
+    border-top: 1px solid var(--color-black);
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--color-black);
+}
+
+main details p{
+    padding: 15px;
+}
 
 
 /* footer */
