@@ -48,11 +48,12 @@ header{
 
 body ul{
     list-style: none;
-    cursor: pointer;
+    
 }
 
 header ul li{
     padding-left: 40px;
+    cursor: pointer;
 }
 
 header ul li:nth-child(3){
@@ -176,11 +177,9 @@ button a{
     font-size: 1.5em;
 }
 
-/* backgraund */
 
-.bg-light-blue{
-    background-color: var(--color-jumbo);
-}
+
+
 
 
 /* flex utilities */
@@ -223,6 +222,74 @@ button a{
     width: 50%;
     height: 50%;
 }
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto{
+    width: 60%;
+    height: 60%;
+    filter: invert(100%);
+}
+
+.foto-florida{
+    width: 60%;
+    height: 15%;
+    filter: invert(100%);
+}
+
+.hr{
+    padding: 45px 0px;
+}
+
+.designit{
+    height: 100px;   
+    padding-right: 50%;
+}
+
+.no-flex{
+    display: flex none
+}
+
+/* backgraund */
+
+.bg-light-blue{
+    background-color: var(--color-jumbo);
+}
+
+.bg-green{
+    background-color: var(--color-logo-green);
+}
+
+.bg-contrast{
+    background-color: var(--color-logo-second);
+}
+
+.bg-blue{
+    background-color: var(--color-logo-third);
+}
+
+.bg-light-red{
+    background-color: var(--color-logo-light-red);
+}
+
+.bg-red{
+    background-color: var(--color-logo-red);
+}
+
+.bg-logo-blue{
+    background-color: var(--color-logo-blue);
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+
+
 
 
 .padding-row{
@@ -278,6 +345,11 @@ h4{
     color: var(--color-blue+);
 }
 
+main hr{
+    color: var(--color-black);
+    width: 20%;
+}
+
 
 /* paddin button */
 
@@ -312,6 +384,10 @@ h4{
 
 .paddin-top-40{
     padding-top: 40px;
+}
+
+.padding-top-150{
+    padding-top: 150px;
 }
 
 .col{
@@ -359,6 +435,34 @@ main details p{
 footer{
     background-color: black;
     color: white;
+    height: 590px;
+}
+
+.top-footer{
+    padding: 100px 0px 100px;
+}
+
+h5{
+    font-size: 1.7em;
+    padding-bottom: 15px;
+}
+
+footer ul li{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+footer hr{
+    width: 10%;
+    margin-bottom: 50px;
+}
+
+footer div i,span{
+    padding-right: 7px;
+}
+
+footer i{
+    font-size: 1.2em;
 }
 
 
