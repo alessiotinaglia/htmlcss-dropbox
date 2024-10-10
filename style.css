@@ -15,7 +15,7 @@ body{
 :root {
     --color-black: #000000;
     --color-blue: #0061ff;
-    --color-grey: #f5f5f5;
+    --color-grey: #b0acac;
     --color-contrast: #753f63;
     --color-white: #ffffff;
     --color-logo-green: #a2d39b;
@@ -33,7 +33,8 @@ html{
 }
 
 .debug{
-    border: 1px solid black;
+    border: 1px solid var(--color-grey);
+    
 }
 
 header{
@@ -43,16 +44,19 @@ header{
     width: 100%;
     background-color: white;
     z-index: 1000;
-    padding: 0 20px;
 }
+
 
 body ul{
     list-style: none;
-    
+}
+
+header nav ul:nth-child(2) li:last-child{
+    align-items: center;
 }
 
 header ul li{
-    padding-left: 40px;
+    margin: 25px;
     cursor: pointer;
 }
 
@@ -60,34 +64,76 @@ header ul li:nth-child(3){
     padding-right: 15px;
 }
 
+header nav ul li:hover{
+    border-bottom: 1px solid var(--color-black);
+}
+
+.riga::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+    transform: var(--color-black);
+    position: absolute;
+    bottom: 0;
+}
+
+.riga:hover::after{
+    background-color: var(--color-black);
+}
+
 img{
     width: 100%;
     display: block;
 }
 
-.p-header{
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
-    padding-right: 5px;
-}
+
 
 .button-small{
     background-color: var(--color-blue);
     padding: 8px 16px;
     color: var(--color-white);
+    cursor: pointer;
+}
+
+
+.button-small:hover{
+    opacity: 0.8;
 }
 
 .button-big{
     background-color: var(--color-blue);
     padding: 12px 20px;
     color: var(--color-white);
+    cursor: pointer;
+}
+
+.button-big:hover{
+    opacity: 0.8;
 }
 
 .buttom-big-white{
     background-color: var(--color-white);
+    padding: 12px 50px;
+    color: 0 0 15px rgba(0, 123, 255, 0.7);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.buttom-big-white:{
+    opacity: 0.8;
+}
+
+.bottom-white{
+    background-color: var(--color-white);
     padding: 12px 20px;
     color: var(--color-dark);
+    cursor: pointer;
+}
+
+.bottom-white:hover{
+    opacity: 0.8;
 }
 
 #black{
@@ -150,11 +196,19 @@ p{
     margin: 35px 0px;
 }
 
+.margin-100{
+    margin: 100px 0px;
+}
+
 button a{
     color: var(--color-white);
     cursor: pointer;
     text-decoration: none;
     font-size: 1.2em;
+}
+
+.margin-20{
+    margin: 17px 5px;
 }
 
 .font{
@@ -250,6 +304,9 @@ button a{
     padding-right: 50%;
 }
 
+.of-auto{
+    overflow: auto;
+}
 .no-flex{
     display: flex none
 }
@@ -288,7 +345,9 @@ button a{
     background-color: #FFD830;
 }
 
-
+.bg-grey{
+    background-color: var(--color-grey);
+}
 
 
 
@@ -310,6 +369,10 @@ h4{
     font-size: 1.5em;
 }
 
+h6{
+    font-size: 2em;
+}
+
 .drobox-business{
     padding: 150px 0px 20px;
 }
@@ -324,6 +387,10 @@ h4{
 }
 .{
     padding: 100px 0px;
+}
+
+.padding-left-50{
+    padding-left: 50px;
 }
 
 
@@ -351,7 +418,7 @@ main hr{
 }
 
 
-/* paddin button */
+/* paddin botton */
 
 .padding-bottom-5{
     padding-bottom: 5px;
@@ -426,6 +493,10 @@ summary{
 
 main details p{
     padding: 15px;
+}
+
+.no-stretch{
+    height: auto;
 }
 
 
